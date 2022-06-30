@@ -6,3 +6,5 @@
 4. Hello put
 5. Hello print f
 6. size
+7. integer
+8. quote unix
