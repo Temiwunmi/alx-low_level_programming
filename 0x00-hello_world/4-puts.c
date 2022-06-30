@@ -1,15 +1,17 @@
 #include <stdio.h>
-
+/**
+ * Main -Entry point
+ *
+ * Description: 'the program describe using puts'
+ *
+ * Return: Always 0 (success
+ */
 int main(void)
 {
-	/**
-	 * char = programming is like a multilingual puzzle
-	 */
-	char str[] = "\"Programming is like building a multilingual puzzle\n";
-       /**
-	* puts = input the str
-	*/
+	char str[] = "\"Programming is like building a multilingual puzzle"
+
 	puts(str);
+
 	return (0);
 }
 
