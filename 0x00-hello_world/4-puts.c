@@ -1,15 +1,12 @@
 #include <stdio.h>
 /**
- * Main -Entry point
+ * main - this a main function
  *
- * Description: 'the program describe using puts'
+ * description - the starting point of the program
  *
- * Return: Always 0 (success
+ * return : 0 after printing function
  */
 int main(void)
-/*
- * using put
- */
 {
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
