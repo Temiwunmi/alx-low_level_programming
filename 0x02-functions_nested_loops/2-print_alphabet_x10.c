@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 
 	for (p = 0; p < 10; p++)
 	{
-		for (o = 'a'; o = 'z'; o++)
+		for (o = 'a'; o <= 'z'; o++)
 		{
 			_putchar(o);
 		}
