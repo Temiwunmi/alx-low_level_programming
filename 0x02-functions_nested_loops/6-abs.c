@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _abs - absolute integer
- * @N: character
- * Return: 0 if successful
+ *  _abs -> return absolute value of a number
+ *  @n: parameter
+ *  Return: absolute value of a number
  */
-int _abs(int)
+int _abs(int n)
 {
-	int N = 10;
-	findAbsolute(N);
-	return (0);
-}	
+	if (n < 0)
+		n = -n;
+	return (n);
+}
