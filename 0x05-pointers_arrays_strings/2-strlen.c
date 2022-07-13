@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * _strlen - returns the lenght of a string
  * @s: string to be passed
@@ -13,5 +13,5 @@ int _strlen(char *s)
 	{
 		len += 1;
 	}
-	return (strlen());
+	return (len);
 }
