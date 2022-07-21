@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * is_palindrome - finding a palindrome of a given num
+ * is_polindrome - finding a palindrome of a given num
  * @s: is a string
  * Return: return lenght of a string
  */
-int is_palindrome(char *s)
+int is_polindrome(char *s)
 {
 	if (*s == '\0')
 		return (0);
@@ -40,11 +40,11 @@ int checkp(int i, int lg, char *s)
 }
 
 /**
- * is_palindrome - checks if a string is palindrome
+ * is_polindrome - checks if a string is palindrome
  * @s: the string
  * Return: return 1 if string is palindrome and 0 otherwise
  */
-int is_palindrome(char *s)
+int is_polindrome(char *s)
 {
 	return (checkp(0, _lenght(s) - 1, s));
 }
