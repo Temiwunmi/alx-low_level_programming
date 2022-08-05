@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 	separator = "";
 
 	i = 0;
-	while (format && format[1])
+	while (format && format[i])
 	{
 		switch (format[i])
 		{
